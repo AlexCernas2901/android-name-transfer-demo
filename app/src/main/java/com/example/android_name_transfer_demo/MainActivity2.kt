@@ -21,7 +21,7 @@ class MainActivity2 : AppCompatActivity() {
 		val txtvName = findViewById<TextView>(R.id.txtvName)
 
 		// Set the text of the TextView to the extracted data
-		txtvName.text = data
+		txtvName.text = "Mi nombre es: $data"
 
 		// Find the Button with ID "btnBack" in the layout
 		val btnBack = findViewById<Button>(R.id.btnBack)
@@ -34,6 +34,5 @@ class MainActivity2 : AppCompatActivity() {
 			// Start the MainActivity using the intent
 			startActivity(intentBack)
 		}
-
 	}
 }
