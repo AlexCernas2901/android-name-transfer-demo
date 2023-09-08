@@ -1,8 +1,6 @@
 # android-name-transfer-demo
 
-![Demo Screenshot](screenshot.png)
-
-The "Android Name Transfer Demo" repository contains a small sample application developed in Kotlin using Android Studio. This application allows users to input a name in a text field, and upon clicking the "Send" button, it transfers that name to a second activity. In the second activity, the name is displayed with the caption "My name is:" followed by the user-entered name. A "Back" button is also provided to return to the main activity.
+This repository contains a small sample application developed in Kotlin using Android Studio. This application allows users to input a name in a text field, and upon clicking the "Send" button, it transfers that name to a second activity. In the second activity, the name is displayed with the caption "My name is:" followed by the user-entered name. A "Back" button is also provided to return to the main activity.
 
 This simple application demonstrates how to pass data (in this case, a name) between activities in an Android application using the concept of Intents.
 
